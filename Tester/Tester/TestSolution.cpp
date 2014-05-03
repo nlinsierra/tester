@@ -6,6 +6,7 @@ using namespace std;
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 bool SetAPIInterception(HANDLE hProcess, char InterceptionLibName[]) {
 	LPVOID LoadFunctionAddress = NULL, DLLPathAddress = NULL;
+	DWORD oldProtect = 0;
 	HANDLE RemoteThread = NULL;
 	SECURITY_ATTRIBUTES sa;
 	sa.nLength = sizeof(sa);
@@ -13,16 +14,24 @@ bool SetAPIInterception(HANDLE hProcess, char InterceptionLibName[]) {
 	sa.bInheritHandle = TRUE;
 
 	try {
-		DLLPathAddress = (LPVOID)VirtualAllocEx(hProcess, NULL, strlen(InterceptionLibName), MEM_COMMIT, PAGE_READWRITE);
+		DLLPathAddress = (LPVOID)VirtualAllocEx(hProcess, NULL, strlen(InterceptionLibName), MEM_RESERVE | MEM_COMMIT, PAGE_READWRITE);
+		
+		//VirtualProtectEx(hProcess, (LPVOID)DLLPathAddress, strlen(InterceptionLibName), PAGE_EXECUTE_READWRITE, &oldProtect);
+		
 		if (DLLPathAddress == NULL) throw E_INTERSEPT_API;
-		LoadFunctionAddress = (LPVOID)GetProcAddress(GetModuleHandle("kernel32.dll"),"LoadLibraryA");
+		LoadFunctionAddress = (LPVOID)GetProcAddress(GetModuleHandleA("kernel32.dll"),"LoadLibraryA");
 		if (LoadFunctionAddress == NULL) throw E_INTERSEPT_API;
 		if (!WriteProcessMemory(hProcess, (LPVOID)DLLPathAddress, InterceptionLibName, strlen(InterceptionLibName), NULL)) throw E_INTERSEPT_API;
-		RemoteThread = CreateRemoteThread(hProcess, &sa, 0, (LPTHREAD_START_ROUTINE)LoadFunctionAddress, DLLPathAddress, 0, NULL);  
+		
+		//VirtualProtectEx(hProcess, (LPVOID)DLLPathAddress, strlen(InterceptionLibName), oldProtect, &oldProtect);
+
+		//FlushInstructionCache(hProcess, (LPVOID)DLLPathAddress, strlen(InterceptionLibName));
+		
+		RemoteThread = CreateRemoteThread(hProcess, NULL, NULL, (LPTHREAD_START_ROUTINE)LoadFunctionAddress, (LPVOID)DLLPathAddress, NULL, NULL);
 		if (RemoteThread == NULL) throw E_INTERSEPT_API;
-		WaitForSingleObject(RemoteThread, INFINITE);
+		WaitForSingleObject(RemoteThread, INFINITE);		
 		CloseHandle(RemoteThread);
-		VirtualFreeEx(hProcess, DLLPathAddress, 0, MEM_RELEASE);
+		VirtualFreeEx(hProcess, (LPVOID)DLLPathAddress, 0, MEM_RELEASE | MEM_DECOMMIT);
 		return true;
 	}
 	catch (...) {

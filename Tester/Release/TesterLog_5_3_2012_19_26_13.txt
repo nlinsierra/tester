@@ -1,9 +1,0 @@
-
-Solution #33
-Testing start time: 19:27:08:379
-Thread id: 1664
-User id: 5
-Problem id: 1
-Creating compilation process error: 2
-Internal tester error
-Testing end time: 19:27:08:395

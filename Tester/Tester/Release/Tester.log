@@ -1,11 +1,29 @@
-﻿Сборка начата 03.05.2014 17:37:45.
-     1>Проект "E:\Tester\Tester\Tester.vcxproj" в узле 2 (целевые объекты Build).
+﻿Сборка начата 03.05.2014 22:02:51.
+     1>Проект "E:\tester\Tester\Tester\Tester.vcxproj" в узле 2 (целевые объекты Rebuild).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\mysql\include /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TestSolution.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\mysql\include /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CompileSolution.cpp Init.cpp LimitSettings.cpp main.cpp Run.cpp TestSolution.cpp WriteLog.cpp
+         CompileSolution.cpp
+         Init.cpp
+     1>Init.cpp(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112): см. объявление "strcpy"
+     1>Init.cpp(61): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112): см. объявление "strcpy"
+     1>Init.cpp(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112): см. объявление "strcpy"
+     1>Init.cpp(85): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112): см. объявление "strcpy"
+     1>Init.cpp(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112): см. объявление "strcpy"
+     1>Init.cpp(109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112): см. объявление "strcpy"
+         LimitSettings.cpp
+         main.cpp
+         Run.cpp
          TestSolution.cpp
-     1>TestSolution.cpp(259): warning C4244: =: преобразование "std::streamoff" в "unsigned int", возможна потеря данных
+     1>TestSolution.cpp(272): warning C4244: =: преобразование "std::streamoff" в "unsigned int", возможна потеря данных
+         WriteLog.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Tester\Release\Tester.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\mysql\lib\opt libmysql.lib psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Tester\Release\Tester.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Tester\Release\Tester.lib" /MACHINE:X86 /SAFESEH Release\CompileSolution.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\tester\Tester\Release\Tester.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\mysql\lib\opt libmysql.lib psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\tester\Tester\Release\Tester.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\tester\Tester\Release\Tester.lib" /MACHINE:X86 /SAFESEH Release\CompileSolution.obj
          Release\Init.obj
          Release\LimitSettings.obj
          Release\main.obj
@@ -14,9 +32,9 @@
          Release\WriteLog.obj
          Создание кода
          Создание кода завершено
-         Tester.vcxproj -> E:\Tester\Release\Tester.exe
-     1>Сборка проекта "E:\Tester\Tester\Tester.vcxproj" завершена (целевые объекты Build).
+         Tester.vcxproj -> E:\tester\Tester\Release\Tester.exe
+     1>Сборка проекта "E:\tester\Tester\Tester\Tester.vcxproj" завершена (целевые объекты Rebuild).
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:01.95
+Затраченное время: 00:00:07.09

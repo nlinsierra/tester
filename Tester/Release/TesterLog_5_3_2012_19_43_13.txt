@@ -1,26 +1,0 @@
-
-Solution #46
-Testing start time: 19:43:29:245
-Thread id: 888
-User id: 6
-Problem id: 1
-Finished generating code
-Time used: 0 ms
-Memory used: 6024 Kb
-Runtime error on test 1
-Testing end time: 19:43:33:706
-
-Solution #7
-Testing start time: 19:45:40:239
-Thread id: 888
-User id: 4
-Problem id: 1
-Embarcadero Delphi for Win32 compiler version 22.0
-Copyright (c) 1983,2010 Embarcadero Technologies, Inc.
-main.pas(41) Warning: W1036 Variable 'iCard' might not have been initialized
-main.pas(41) Warning: W1036 Variable 'iMast' might not have been initialized
-main.pas(77) Warning: W1036 Variable 'cCard' might not have been initialized
-main.pas(77) Warning: W1036 Variable 'cMast' might not have been initialized
-85 lines, 0.08 seconds, 17408 bytes code, 13168 bytes data.
-ERROR! NO TESTS FOR THIS PROBLEM!
-Testing end time: 19:45:40:504

@@ -37,8 +37,8 @@ HANDLE WINAPI NewCreateFileAFunction(LPCSTR lpFileName, DWORD dwDesiredAccess, D
 
 // Функция открытия файла
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-BOOL WINAPI NewOpenFileFunction(LPCSTR lpFileName, LPOFSTRUCT lpReOpenBuff, UINT uStyle) {
-	if (strcmp(lpFileName, "input.txt") != 0 && strcmp(lpFileName, "output.txt") != 0) {
+BOOL WINAPI NewOpenFileFunction(LPCSTR lpFileName, LPOFSTRUCT lpReOpenBuff, UINT uStyle) {	
+	if (strcmp(lpFileName, "input.txt") != 0 && strcmp(lpFileName, "output.txt") != 0) {		
         //throw EXCEPTION_ACCESS_VIOLATION;
 		GenerateException();
 		return FALSE;

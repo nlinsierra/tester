@@ -1,0 +1,17 @@
+﻿Сборка начата 03.05.2014 20:52:45.
+     1>Проект "E:\tester\APIDll\APIInterception\APIInterception.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D APIINTERCEPTION_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt NewAPI.cpp main.cpp
+         NewAPI.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\tester\APIDll\Release\APIInterception.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\tester\APIDll\Release\APIInterception.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\tester\APIDll\Release\APIInterception.lib" /MACHINE:X86 /SAFESEH /DLL Release\main.obj
+         Release\NewAPI.obj
+         Создание кода
+         Создание кода завершено
+         APIInterception.vcxproj -> E:\tester\APIDll\Release\APIInterception.dll
+     1>Сборка проекта "E:\tester\APIDll\APIInterception\APIInterception.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.77

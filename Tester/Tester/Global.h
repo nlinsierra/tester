@@ -13,6 +13,7 @@
 #include <stdlib.h>
 #include <winsock.h>
 #include <process.h>
+#include <Processthreadsapi.h>
 #include <psapi.h>
 #include <time.h>
 #include <io.h>

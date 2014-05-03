@@ -86,7 +86,7 @@ bool CallInterception(char FunctionName[], void *NewFunctionAddress, void **Orig
 	hKernel32 = GetModuleHandle("kernel32.dll");
     FunctionAddress = (Jump*)(GetProcAddress(hKernel32, FunctionName));
 	if (OriginalFunction != NULL) CallStdFunction(FunctionAddress, OriginalFunction);
-	VirtualProtect(FunctionAddress, sizeof(Jump), dwProtect, &dwProtect);
+	//VirtualProtect(FunctionAddress, sizeof(Jump), dwProtect, &dwProtect);
 	FunctionAddress->OperationCode = JmpOperationCode;
 	FunctionAddress->RelativeAddress = CalcRelativeAddressForJmp(FunctionAddress, NewFunctionAddress);
 	return true;
@@ -99,7 +99,7 @@ bool CallInterception(char FunctionName[], void *NewFunctionAddress, void **Orig
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
 	if (fdwReason == DLL_PROCESS_ATTACH) {
 		for (int i = 0; i < 26; ++i)
-			CallInterception(Functions[i].FunctionName, Functions[i].NewFunction, Functions[i].StdFunction);		
+			CallInterception(Functions[i].FunctionName, Functions[i].NewFunction, Functions[i].StdFunction);				
 	}
 	return TRUE;
 }

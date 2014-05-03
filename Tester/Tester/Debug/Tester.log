@@ -1,20 +1,20 @@
-﻿Сборка начата 03.05.2014 17:56:07.
-     1>Проект "E:\Tester\Tester\Tester.vcxproj" в узле 2 (целевые объекты Build).
+﻿Сборка начата 03.05.2014 21:16:39.
+     1>Проект "E:\tester\Tester\Tester\Tester.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\mysql\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TestSolution.cpp
          TestSolution.cpp
-     1>e:\tester\tester\testsolution.cpp(263): warning C4244: =: преобразование "std::streamoff" в "unsigned int", возможна потеря данных
+     1>e:\tester\tester\tester\testsolution.cpp(272): warning C4244: =: преобразование "std::streamoff" в "unsigned int", возможна потеря данных
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Tester\Debug\Tester.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\mysql\lib\opt /LIBPATH:C:\Tester\Tester libmysql.lib psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Tester\Debug\Tester.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Tester\Debug\Tester.lib" /MACHINE:X86 /SAFESEH Debug\CompileSolution.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\tester\Tester\Debug\Tester.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\mysql\lib\opt /LIBPATH:C:\Tester\Tester libmysql.lib psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\tester\Tester\Debug\Tester.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\tester\Tester\Debug\Tester.lib" /MACHINE:X86 /SAFESEH Debug\CompileSolution.obj
          Debug\Init.obj
          Debug\LimitSettings.obj
          Debug\main.obj
          Debug\Run.obj
          Debug\TestSolution.obj
          Debug\WriteLog.obj
-         Tester.vcxproj -> E:\Tester\Debug\Tester.exe
-     1>Сборка проекта "E:\Tester\Tester\Tester.vcxproj" завершена (целевые объекты Build).
+         Tester.vcxproj -> E:\tester\Tester\Debug\Tester.exe
+     1>Сборка проекта "E:\tester\Tester\Tester\Tester.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:01.45
+Затраченное время: 00:00:01.24
