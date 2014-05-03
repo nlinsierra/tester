@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Tester">
+</Property><Property Name="Solution File" Value="D:\OlimpCenter\Tester\Tester.sln">
+</Property><Property Name="User Options File" Value="D:\OlimpCenter\Tester\Tester.suo">
+</Property><Property Name="Date" Value="27 апреля 2010 г.">
+</Property><Property Name="Time" Value="17:58">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Tester.sln" Description="File successfully backed up as D:\OlimpCenter\Tester\Tester.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="Tester.suo" Description="File successfully backed up as D:\OlimpCenter\Tester\Tester.suo.old">
+</Event><Event ErrorLevel="0" Project="" Source="Tester.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="Tester.sln" Description="No Conversion Required">
+</Event></UpgradeLog>

@@ -1,0 +1,198 @@
+
+Solution #2
+Testing start time: 14:20:25:250
+Thread id: 2832
+User id: 2
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+main.c
+D:\OlimpCenter\Tester\Release\Workdir\2832\main.c(9) : warning C4101: 'q' : unreferenced local variable
+Generating code
+Finished generating code
+Time used: 29 ms
+Memory used: 3896 Kb
+Wrong answer on test 1
+Testing end time: 14:20:26:343
+
+Solution #4
+Testing start time: 14:20:25:453
+Thread id: 3484
+User id: 4
+Free Pascal Compiler version 2.0.2 [2005/11/26] for i386
+Copyright (c) 1993-2005 by Florian Klaempfl
+Target OS: Win32 for i386
+Compiling D:\OlimpCenter\Tester\Release\Workdir\3484\main.pas
+main.pas(4,3) Note: Local variable "i" not used
+Linking D:\OlimpCenter\Tester\Release\Workdir\3484\main.exe
+9 Lines compiled, 0.1 sec
+Time used: 4 ms
+Memory used: 10724 Kb
+Accepted
+Testing end time: 14:20:26:656
+
+Solution #3
+Testing start time: 14:20:25:343
+Thread id: 3180
+User id: 3
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+main.cpp
+D:\OlimpCenter\Tester\Release\Workdir\3180\main.cpp(6) : warning C4101: 'n' : unreferenced local variable
+Generating code
+Finished generating code
+Time used: 86 ms
+Memory used: 4508 Kb
+Runtime error on test 1
+Testing end time: 14:20:27:062
+
+Solution #6
+Testing start time: 14:20:26:843
+Thread id: 2832
+User id: 2
+Free Pascal Compiler version 2.0.2 [2005/11/26] for i386
+Copyright (c) 1993-2005 by Florian Klaempfl
+Target OS: Win32 for i386
+Compiling D:\OlimpCenter\Tester\Release\Workdir\2832\main.pas
+Fatal: Syntax error, "identifier" expected but "end of file" found
+Fatal: Compilation aborted
+Error: C:\FPC\2.0.2\bin\i386-win32\ppc386.exe returned an error exitcode (normal if you did not specify a source file to be compiled)
+Time used: 0 ms
+Memory used: 0 Kb
+Compilation error
+Testing end time: 14:20:27:218
+
+Solution #8
+Testing start time: 14:20:26:890
+Thread id: 3484
+User id: 4
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+main.cpp
+Generating code
+d:\olimpcenter\tester\release\workdir\3484\main.cpp(3) : warning C4723: potential divide by 0
+Finished generating code
+Time used: 32 ms
+Memory used: 3892 Kb
+Runtime error on test 1
+Testing end time: 14:20:27:671
+
+Solution #7
+Testing start time: 14:20:27:359
+Thread id: 3180
+User id: 3
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+main.cpp
+D:\OlimpCenter\Tester\Release\Workdir\3180\main.cpp(5) : warning C4101: 'd' : unreferenced local variable
+Generating code
+Finished generating code
+Time used: 150 ms
+Memory used: 36660 Kb
+Memory limit exceeded on test 1
+Testing end time: 14:20:28:203
+
+Solution #10
+Testing start time: 14:20:27:468
+Thread id: 2832
+User id: 2
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+main.cpp
+D:\OlimpCenter\Tester\Release\Workdir\2832\main.cpp(4) : warning C4101: 'd' : unreferenced local variable
+Generating code
+Finished generating code
+Time used: 157 ms
+Memory used: 4636 Kb
+Runtime error on test 1
+Testing end time: 14:20:28:234
+
+Solution #12
+Testing start time: 14:20:28:062
+Thread id: 3484
+User id: 4
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+main.cpp
+Generating code
+Finished generating code
+Time used: 124 ms
+Memory used: 23168 Kb
+Wrong answer on test 1
+Testing end time: 14:20:28:625
+
+Solution #11
+Testing start time: 14:20:28:406
+Thread id: 3180
+User id: 3
+Free Pascal Compiler version 2.0.2 [2005/11/26] for i386
+Copyright (c) 1993-2005 by Florian Klaempfl
+Target OS: Win32 for i386
+Compiling D:\OlimpCenter\Tester\Release\Workdir\3180\main.pas
+Linking D:\OlimpCenter\Tester\Release\Workdir\3180\main.exe
+13 Lines compiled, 0.1 sec
+Time used: 8 ms
+Memory used: 10736 Kb
+Runtime error on test 1
+Testing end time: 14:20:28:843
+
+Solution #13
+Testing start time: 14:20:28:500
+Thread id: 2832
+User id: 2
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+main.cpp
+D:\OlimpCenter\Tester\Release\Workdir\2832\main.cpp(33) : warning C4018: '<' : signed/unsigned mismatch
+D:\OlimpCenter\Tester\Release\Workdir\2832\main.cpp(47) : warning C4018: '<' : signed/unsigned mismatch
+Generating code
+Finished generating code
+Time used: 34 ms
+Memory used: 4520 Kb
+Accepted
+Testing end time: 14:20:29:953
+
+Solution #1
+Testing start time: 14:20:25:203
+Thread id: 4016
+User id: 1
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+main.c
+Generating code
+Finished generating code
+Time used: 5010 ms
+Memory used: 3892 Kb
+Time limit exceeded on test 1
+Testing end time: 14:20:31:125
+
+Solution #5
+Testing start time: 14:20:31:203
+Thread id: 4016
+User id: 1
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+main.cpp
+D:\OlimpCenter\Tester\Release\Workdir\4016\main.cpp(9) : warning C4101: 'StartInf' : unreferenced local variable
+Generating code
+Finished generating code
+Time used: 1 ms
+Memory used: 4512 Kb
+Runtime error on test 1
+Testing end time: 14:20:32:718
+
+Solution #9
+Testing start time: 14:20:32:812
+Thread id: 4016
+User id: 1
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+main.cpp
+Generating code
+Finished generating code
+Time used: 0 ms
+Memory used: 42408 Kb
+Memory limit exceeded on test 1
+Testing end time: 14:20:33:453
+
+Solution #14
+Testing start time: 14:20:33:546
+Thread id: 4016
+User id: 1
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+main.cpp
+Generating code
+Finished generating code
+Time used: 1 ms
+Memory used: 4504 Kb
+Runtime error on test 1
+Testing end time: 14:20:34:250

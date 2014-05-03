@@ -1,0 +1,39 @@
+
+Solution #82
+Testing start time: 19:46:54:667
+Thread id: 2836
+User id: 4
+Problem id: 5
+Embarcadero Delphi for Win32 compiler version 22.0
+Copyright (c) 1983,2010 Embarcadero Technologies, Inc.
+main.pas(41) Hint: H2164 Variable 'TempPares' is declared but never used in 'WorkWord'
+main.pas(18) Hint: H2164 Variable 'D' is declared but never used in 'PROGRAM'
+main.pas(18) Hint: H2164 Variable 'W' is declared but never used in 'PROGRAM'
+100 lines, 0.00 seconds, 19784 bytes code, 21988 bytes data.
+Internal tester error
+Library access error: 0
+Testing end time: 19:46:54:776
+
+Solution #32
+Testing start time: 19:47:18:987
+Thread id: 2836
+User id: 4
+Problem id: 0
+Embarcadero Delphi for Win32 compiler version 22.0
+Copyright (c) 1983,2010 Embarcadero Technologies, Inc.
+62 lines, 0.00 seconds, 17732 bytes code, 13172 bytes data.
+Time used: 3 ms
+Memory used: 15876 Kb
+Accepted
+Testing end time: 19:47:19:533
+
+Solution #34
+Testing start time: 19:47:37:692
+Thread id: 2836
+User id: 4
+Problem id: 0
+Embarcadero Delphi for Win32 compiler version 22.0
+Copyright (c) 1983,2010 Embarcadero Technologies, Inc.
+62 lines, 0.00 seconds, 17780 bytes code, 23144 bytes data.
+ERROR! NO TESTS FOR THIS PROBLEM!
+Testing end time: 19:47:37:817

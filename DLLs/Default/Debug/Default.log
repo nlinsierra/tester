@@ -1,0 +1,20 @@
+﻿Build started 05.03.2012 19:21:04.
+     1>Project "C:\DLLs\Default\Default.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Default.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\Default.unsuccessfulbuild".
+         Touching "Debug\Default.lastbuildstate".
+     1>Done Building Project "C:\DLLs\Default\Default.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

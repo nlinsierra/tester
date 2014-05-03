@@ -1,0 +1,84 @@
+
+Solution #7
+Testing start time: 20:13:45:847
+Thread id: 2900
+User id: 4
+Problem id: 1
+Embarcadero Delphi for Win32 compiler version 22.0
+Copyright (c) 1983,2010 Embarcadero Technologies, Inc.
+main.pas(41) Warning: W1036 Variable 'iCard' might not have been initialized
+main.pas(41) Warning: W1036 Variable 'iMast' might not have been initialized
+main.pas(77) Warning: W1036 Variable 'cCard' might not have been initialized
+main.pas(77) Warning: W1036 Variable 'cMast' might not have been initialized
+85 lines, 0.00 seconds, 17408 bytes code, 13168 bytes data.
+Time used: 1 ms
+Memory used: 16032 Kb
+Accepted
+Testing end time: 20:13:46:003
+
+Solution #32
+Testing start time: 20:14:01:182
+Thread id: 2900
+User id: 4
+Problem id: 0
+Embarcadero Delphi for Win32 compiler version 22.0
+Copyright (c) 1983,2010 Embarcadero Technologies, Inc.
+62 lines, 0.00 seconds, 17732 bytes code, 13172 bytes data.
+Time used: 1 ms
+Memory used: 16036 Kb
+Accepted
+Testing end time: 20:14:01:728
+
+Solution #34
+Testing start time: 20:14:13:849
+Thread id: 2900
+User id: 4
+Problem id: 0
+Embarcadero Delphi for Win32 compiler version 22.0
+Copyright (c) 1983,2010 Embarcadero Technologies, Inc.
+62 lines, 0.00 seconds, 17780 bytes code, 23144 bytes data.
+Time used: 1 ms
+Memory used: 16060 Kb
+Accepted
+Testing end time: 20:14:14:380
+
+Solution #48
+Testing start time: 20:14:26:517
+Thread id: 2900
+User id: 4
+Problem id: 0
+Embarcadero Delphi for Win32 compiler version 22.0
+Copyright (c) 1983,2010 Embarcadero Technologies, Inc.
+main.pas(64) Hint: H2077 Value assigned to 'XCenter' never used
+main.pas(63) Hint: H2077 Value assigned to 'YCenter' never used
+75 lines, 0.02 seconds, 17676 bytes code, 13172 bytes data.
+Time used: 1 ms
+Memory used: 16036 Kb
+Accepted
+Testing end time: 20:14:27:063
+
+Solution #49
+Testing start time: 20:14:45:237
+Thread id: 2900
+User id: 4
+Problem id: 0
+Embarcadero Delphi for Win32 compiler version 22.0
+Copyright (c) 1983,2010 Embarcadero Technologies, Inc.
+main.pas(64) Hint: H2077 Value assigned to 'XCenter' never used
+main.pas(63) Hint: H2077 Value assigned to 'YCenter' never used
+77 lines, 0.02 seconds, 17708 bytes code, 23144 bytes data.
+Time used: 1 ms
+Memory used: 16064 Kb
+Accepted
+Testing end time: 20:14:45:767
+
+Solution #55
+Testing start time: 20:15:12:989
+Thread id: 2900
+User id: 2
+Problem id: 1
+Finished generating code
+Time used: 0 ms
+Memory used: 8136 Kb
+Runtime error on test 1
+Testing end time: 20:15:17:544

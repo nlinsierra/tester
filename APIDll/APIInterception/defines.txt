@@ -1,0 +1,23 @@
+//#define CREATE_FILE_A        0
+//#define CREATE_FILE_W        1
+//#define OPEN_FILE            2
+//#define CREATE_DIR_A         3
+//#define CREATE_DIR_W         4
+//#define DELETE_FILE_A        5
+//#define DELETE_FILE_W        6
+//#define REMOVE_DIR_A         7
+//#define REMOVE_DIR_W         8
+//#define CREATE_PROCESS_A     9
+//#define CREATE_PROCESS_W     10
+//#define CREATE_THREAD        11
+//#define CREATE_REMOTE_THREAD 12
+//#define COPY_FILE_A          13
+//#define COPY_FILE_W          14
+//#define MOVE_FILE_A          15
+//#define MOVE_FILE_W          16
+//#define WIN_EXEC             17
+//#define TERMINATE_PROCESS    18
+//#define TERMINATE_THREAD     19
+//#define REPLACE_FILE_A       20
+//#define REPLACE_FILE_W       21
+/*******************************************************************************************************************************************/

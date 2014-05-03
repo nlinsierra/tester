@@ -1,0 +1,24 @@
+﻿Build started 06.03.2012 14:38:40.
+Project "C:\Documents and Settings\admin\Рабочий стол\2012\DLLs\Default\Default.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Release\Default.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DEFAULT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt default.cpp
+  default.cpp
+default.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\admin\Рабочий стол\2012\DLLs\Release\Default.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Default.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\admin\Рабочий стол\2012\DLLs\Release\Default.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\admin\Рабочий стол\2012\DLLs\Release\Default.lib" /MACHINE:X86 /DLL Release\default.obj
+     Creating library C:\Documents and Settings\admin\Рабочий стол\2012\DLLs\Release\Default.lib and object C:\Documents and Settings\admin\Рабочий стол\2012\DLLs\Release\Default.exp
+  Generating code
+  Finished generating code
+  Default.vcxproj -> C:\Documents and Settings\admin\Рабочий стол\2012\DLLs\Release\Default.dll
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\admin\Рабочий стол\2012\DLLs\Release\Default.dll;#2" /manifest Release\Default.dll.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Release\Default.unsuccessfulbuild".
+  Touching "Release\Default.lastbuildstate".
+Done Building Project "C:\Documents and Settings\admin\Рабочий стол\2012\DLLs\Default\Default.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.87

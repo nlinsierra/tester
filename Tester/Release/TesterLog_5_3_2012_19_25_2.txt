@@ -1,0 +1,36 @@
+
+Solution #31
+Testing start time: 19:25:06:577
+Thread id: 656
+User id: 5
+Problem id: 1
+C:\Tester\Release\Workdir\656\main.c(11) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h(234) : see declaration of 'fopen'
+C:\Tester\Release\Workdir\656\main.c(12) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h(234) : see declaration of 'fopen'
+C:\Tester\Release\Workdir\656\main.c(16) : warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h(253) : see declaration of 'fscanf'
+C:\Tester\Release\Workdir\656\main.c(8) : warning C4101: 'f' : unreferenced local variable
+Generating code
+Finished generating code
+Time used: 3 ms
+Memory used: 7292 Kb
+Wrong answer on test 1
+Testing end time: 19:25:18:990
+
+Solution #27
+Testing start time: 19:25:46:227
+Thread id: 656
+User id: 5
+Problem id: 0
+C:\Tester\Release\Workdir\656\main.c(11) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h(234) : see declaration of 'fopen'
+C:\Tester\Release\Workdir\656\main.c(12) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h(234) : see declaration of 'fopen'
+C:\Tester\Release\Workdir\656\main.c(16) : warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\stdio.h(253) : see declaration of 'fscanf'
+C:\Tester\Release\Workdir\656\main.c(8) : warning C4101: 'f' : unreferenced local variable
+Generating code
+Finished generating code
+ERROR! NO TESTS FOR THIS PROBLEM!
+Testing end time: 19:25:46:604

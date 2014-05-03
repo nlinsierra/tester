@@ -1,0 +1,539 @@
+269 272 266 
+capital
+c
+d
+e
+f
+g
+h
+i
+j
+ab
+bb
+cb
+db
+eb
+fb
+gb
+hb
+ib
+jb
+ac
+bc
+cc
+dc
+ec
+fc
+gc
+hc
+ic
+jc
+ad
+bd
+cd
+dd
+ed
+fd
+gd
+hd
+id
+jd
+ae
+be
+ce
+de
+ee
+fe
+ge
+he
+ie
+je
+af
+bf
+cf
+df
+ef
+ff
+gf
+hf
+if
+jf
+ag
+bg
+cg
+dg
+eg
+fg
+gg
+hg
+ig
+jg
+ah
+bh
+ch
+dh
+eh
+fh
+gh
+hh
+ih
+jh
+ai
+bi
+ci
+di
+ei
+fi
+gi
+hi
+ii
+ji
+aj
+bj
+cj
+dj
+ej
+fj
+gj
+hj
+ij
+jj
+aab
+bab
+cab
+dab
+eab
+fab
+gab
+hab
+iab
+jab
+abb
+bbb
+cbb
+dbb
+ebb
+fbb
+gbb
+hbb
+ibb
+jbb
+acb
+bcb
+ccb
+dcb
+ecb
+fcb
+gcb
+hcb
+icb
+jcb
+adb
+bdb
+cdb
+ddb
+edb
+fdb
+gdb
+hdb
+idb
+jdb
+aeb
+beb
+ceb
+deb
+eeb
+feb
+geb
+heb
+ieb
+jeb
+afb
+bfb
+cfb
+dfb
+efb
+ffb
+gfb
+hfb
+ifb
+jfb
+agb
+bgb
+cgb
+dgb
+egb
+fgb
+ggb
+hgb
+igb
+jgb
+ahb
+bhb
+chb
+dhb
+ehb
+fhb
+ghb
+hhb
+ihb
+jhb
+aib
+bib
+cib
+dib
+eib
+fib
+gib
+hib
+iib
+jib
+ajb
+bjb
+cjb
+djb
+ejb
+fjb
+gjb
+hjb
+ijb
+jjb
+aac
+bac
+cac
+dac
+eac
+fac
+gac
+hac
+iac
+jac
+abc
+bbc
+cbc
+dbc
+ebc
+fbc
+gbc
+hbc
+ibc
+jbc
+acc
+bcc
+ccc
+dcc
+ecc
+fcc
+gcc
+hcc
+icc
+jcc
+adc
+bdc
+cdc
+ddc
+edc
+fdc
+gdc
+hdc
+idc
+jdc
+aec
+bec
+cec
+dec
+eec
+fec
+gec
+hec
+iec
+jec
+afc
+bfc
+cfc
+dfc
+efc
+ffc
+gfc
+hfc
+ifc
+jfc
+agc
+bgc
+cgc
+dgc
+egc
+fgc
+ggc
+hgc
+igc
+jgc
+ahc
+bhc
+cureburg
+capital f 130
+capital jib 25
+c eb 13
+c bj 87
+c jfb 96
+d gfc 31
+e dh 68
+e fec 112
+f ii 89
+f jeb 1
+f dec 129
+f iec 123
+g fhb 104
+h gcb 18
+h hfb 58
+i ed 24
+i fh 1
+i eac 9
+j dgc 105
+ab ac 26
+ab ae 133
+bb dh 17
+bb ccb 46
+bb fgc 6
+cb ccc 92
+db fcb 120
+db djb 68
+db hbc 51
+eb bd 36
+eb hj 36
+eb ihb 114
+fb ceb 53
+fb cac 95
+gb bab 123
+gb bgb 133
+gb idc 123
+hb fib 19
+ib bcb 117
+jb ic 128
+jb bgb 98
+jb iib 72
+ac bc 7
+ac ji 53
+ac hcb 27
+ac jdb 16
+ac egc 75
+bc adc 1
+bc efc 128
+cc bbb 6
+cc jec 50
+ec cj 115
+fc ijb 68
+ic bd 3
+ic jf 113
+ic bab 48
+ic cjb 27
+ic jdc 109
+jc id 21
+jc jf 27
+ad ae 91
+ad hab 131
+ad dgc 26
+bd hec 59
+dd ieb 51
+ed ihb 2
+ed agc 120
+fd gg 113
+fd jbb 93
+fd iec 119
+gd ibb 64
+hd ajb 37
+id df 11
+id eab 112
+id heb 52
+id hac 54
+id dgc 85
+jd gh 116
+jd ii 31
+ae dh 3
+be jh 77
+be ecc 4
+de bbb 53
+de ebc 79
+de hcc 70
+fe ag 25
+fe ig 6
+fe dh 121
+ge hbc 14
+ge bdc 130
+he hhb 98
+he dec 63
+ie jjb 17
+ie abc 134
+ie hgc 30
+je hib 41
+af gfb 124
+af bhb 119
+cf hdc 1
+df eg 28
+ef cfb 5
+ff deb 103
+ff hhb 81
+ff fac 36
+hf hdc 35
+hf bec 121
+if gg 67
+if hg 25
+if jh 123
+if eec 3
+ag abb 11
+ag fcc 85
+bg ij 54
+bg jjb 35
+bg gbc 92
+cg ecc 33
+dg dib 83
+eg dhb 55
+gg bfb 51
+gg aac 109
+hg bjb 12
+jg gj 87
+jg jj 14
+jg bbb 60
+jg dgb 73
+ah aj 111
+ah ccb 1
+ah chb 45
+ah aec 61
+bh jj 61
+bh hbb 11
+dh jgb 39
+dh hcc 88
+eh icb 56
+fh cac 114
+fh dbc 22
+gh jfb 71
+gh jcc 8
+ih hbb 60
+ih cfb 131
+ih cjb 76
+ai fcb 29
+ai hac 118
+ai abc 24
+ci fbb 97
+ci jbc 81
+di ibb 108
+ei gab 93
+ei jdb 87
+ei ceb 52
+fi ej 54
+gi gib 57
+hi bcb 28
+ji gac 116
+aj jac 59
+bj abb 111
+bj efc 63
+cj jac 72
+dj hfc 22
+ej efc 102
+fj cbc 11
+fj jcc 45
+ij bab 12
+ij jcc 70
+jj bbb 21
+jj acb 18
+jj bdb 62
+aab dfc 106
+bab gab 119
+bab bhc 89
+cab ebb 34
+cab ajb 99
+cab bbc 93
+cab ggc 49
+dab hab 1
+dab ifb 68
+eab ggc 91
+fab dgb 71
+cbb afb 16
+dbb bac 15
+dbb eac 131
+dbb fcc 119
+fbb gfb 20
+fbb afc 124
+jbb jcc 40
+acb bec 46
+bcb ahb 89
+bcb iib 118
+bcb iec 101
+bcb jfc 17
+dcb ghb 38
+dcb bfc 69
+ecb fgc 22
+fcb cdc 2
+fcb aec 4
+fcb eec 104
+gcb adb 107
+hcb jjb 103
+hcb dfc 77
+hcb jgc 80
+icb bac 21
+jcb abc 114
+adb bib 93
+bdb ejb 115
+ddb feb 56
+ddb jjb 107
+fdb cfb 8
+fdb bbc 101
+hdb hbc 26
+aeb ffb 17
+aeb bcc 119
+aeb ggc 3
+beb fjb 80
+ceb hac 99
+ceb aec 134
+eeb ifb 45
+eeb hhb 15
+eeb cec 74
+feb adc 105
+feb eec 130
+geb hbc 2
+geb dcc 58
+geb cfc 90
+ieb fhb 89
+ieb cjb 42
+afb igb 26
+cfb ghb 78
+dfb fac 41
+ffb egb 113
+ffb ijb 22
+ffb egc 78
+gfb fgb 84
+hfb cac 69
+ifb dhb 134
+jfb bjb 44
+agb egb 7
+cgb edc 102
+chb gec 5
+dhb hjb 111
+fhb cec 61
+hhb jgc 103
+eib bgc 116
+fib cgc 16
+fib hgc 115
+iib dac 80
+hjb dfc 30
+ijb igc 95
+eac bec 46
+iac egc 129
+bbc eec 2
+bbc efc 97
+fbc jcc 99
+gbc dfc 60
+acc gcc 10
+acc ifc 114
+bcc iec 27
+dcc aec 131
+ecc gdc 27
+gcc ddc 24
+hcc eec 74
+icc gec 78
+icc ifc 72
+jcc cdc 131
+bdc jdc 76
+jdc jgc 126
+cec hgc 106
+fgc jgc 20

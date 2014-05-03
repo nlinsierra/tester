@@ -1,0 +1,36 @@
+
+Solution #88
+Testing start time: 15:28:29:693
+Thread id: 1528
+User id: 100
+Problem id: 4
+Free Pascal Compiler version 2.4.4 [2011/04/23] for i386
+Copyright (c) 1993-2010 by Florian Klaempfl
+Target OS: Win32 for i386
+Compiling C:\Tester\Tester\Workdir\1528\main.pas
+Linking C:\Tester\Tester\Workdir\1528\main.exe
+34 lines compiled, 0.0 sec , 29664 bytes code, 1560 bytes data
+
+Time used: 3 ms
+Memory used: 10284 Kb
+Accepted
+Testing end time: 15:28:30:303
+
+
+Solution #89
+Testing start time: 15:28:57:381
+Thread id: 1528
+User id: 100
+Problem id: 3
+Free Pascal Compiler version 2.4.4 [2011/04/23] for i386
+Copyright (c) 1993-2010 by Florian Klaempfl
+Target OS: Win32 for i386
+Compiling C:\Tester\Tester\Workdir\1528\main.pas
+Linking C:\Tester\Tester\Workdir\1528\main.exe
+46 lines compiled, 0.0 sec , 29408 bytes code, 1576 bytes data
+
+Time used: 2 ms
+Memory used: 10284 Kb
+Accepted
+Testing end time: 15:28:57:740
+

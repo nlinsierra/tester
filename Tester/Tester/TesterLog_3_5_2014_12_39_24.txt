@@ -1,0 +1,22 @@
+
+Solution #541
+Testing start time: 03.05.2014 12:39:51:343
+Thread id: 2120
+User id: 8
+Problem id: 1
+main.cpp
+
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\xlocale(337) : warning C4530: Использован обработчик исключений C++, но семантика уничтожения объектов не включена. Задайте параметр /EHsc
+
+E:\Tester\Tester\Workdir\2120\main.cpp(71) : warning C4244: аргумент: преобразование "__int64" в "int", возможна потеря данных
+E:\Tester\Tester\Workdir\2120\main.cpp(71) : warning C4244: +=: преобразование "ll" в "int", возможна потеря данных
+
+╤ючфрэшх ъюфр
+
+╤ючфрэшх ъюфр чртхЁ°хэю
+
+Error creating job object: 998
+Error terminating job object: 6Time used: 0 ms
+Memory used: 0 Kb
+Internal tester error on test 1
+Testing end time: 03.05.2014 12:39:52:232
