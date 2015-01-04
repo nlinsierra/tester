@@ -55,10 +55,10 @@ bool ReadProblemsInf(MYSQL *mysql) {
 	Problems.resize(0);
 	for (int i = 0; i < sql_res->row_count; ++i) {
 		row = mysql_fetch_row(sql_res);
-		strcpy(CurrentProblem.Id, row[0]);
+		strcpy_s(CurrentProblem.Id, row[0]);
 		CurrentProblem.MaxMem = atoi(row[1]);
 		CurrentProblem.MaxTime = atoi(row[2]);
-		strcpy(CurrentProblem.Checker, row[3]);
+		strcpy_s(CurrentProblem.Checker, row[3]);
 		Problems.push_back(CurrentProblem);
 	}
 	mysql_free_result(sql_res);
@@ -81,9 +81,9 @@ bool ReadCompilersInf(MYSQL *mysql) {
 	Compilers.resize(0);
 	for (int i = 0; i < sql_res->row_count; ++i) {
 		row = mysql_fetch_row(sql_res);
-		strcpy(CurrentCompiler.Id, row[0]);
-		strcpy(CurrentCompiler.MainFile, row[1]);
-		strcpy(CurrentCompiler.CommandFmt, row[2]);
+		strcpy_s(CurrentCompiler.Id, row[0]);
+		strcpy_s(CurrentCompiler.MainFile, row[1]);
+		strcpy_s(CurrentCompiler.CommandFmt, row[2]);
 		Compilers.push_back(CurrentCompiler);
 	}
 	mysql_free_result(sql_res);
@@ -106,7 +106,7 @@ bool ReadVerdicts(MYSQL *mysql) {
 	Verdicts.resize(0);
 	for (int i = 0; i < sql_res->row_count; ++i) {
 		row = mysql_fetch_row(sql_res);
-		strcpy(CurrentVerdict.content, row[0]);
+		strcpy_s(CurrentVerdict.content, strlen(row[0]) + 1, row[0]);
 		Verdicts.push_back(CurrentVerdict);
 	}
 	mysql_free_result(sql_res);

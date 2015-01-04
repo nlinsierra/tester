@@ -103,6 +103,7 @@ using namespace std;
 #define E_PASSWORD_REQUEST            31
 #define E_INTERSEPT_API               32
 #define E_TIME_LIMIT                  33
+#define E_RUNTIME_ERROR				  34
 /*******************************************/
 
 // Структура - сообщение при исключении

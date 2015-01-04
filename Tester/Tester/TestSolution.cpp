@@ -230,18 +230,24 @@ int DoProgram(int problem_id, int CurrentThreadIdx, LONGLONG &ProcessTime, SIZE_
 			QueryPerformanceCounter(&end);
 			// ¬ычисл€ем пам€ть и врем€ работы процесса
 			ProcessMemory += GetJobMemoryInformation(CurrentThreadIdx, job);
-			ProcessTime = ((end.QuadPart - start.QuadPart) * 1000) / freq.QuadPart;			
+			ProcessTime = ((end.QuadPart - start.QuadPart) * 1000) / freq.QuadPart;	
 			// ѕреобразуем сообщение порта завершени€ в вердикт проверки
 			ReturnValue = SwitchRunResult(RunResult, job, CurrentThreadIdx);
 			// ≈сли MEMORY_LIMIT, то добавл€ем к полученной пам€ти значение MaxMem
 			if (ReturnValue == MEMORY_LIMIT) ProcessMemory += (SIZE_T)Problems[problem_id].MaxMem / KB;
+			DWORD ProcessResult;
+			if (!GetExitCodeProcess(ProcessInf.hProcess, &ProcessResult) || ProcessResult != 0) {
+				ReturnValue = RUNTIME_ERROR;
+				throw E_RUNTIME_ERROR;
+			}
 			throw E_SUCCESSFULL;
 		}
 		else throw E_CREATE_PROCESS;
 		/**************************************************************************************************************************************/
 	}
 	catch (int Exception) {
-		if (Exception != E_SUCCESSFULL && Exception != E_MEMORY_LIMIT && Exception != E_TIME_LIMIT) ReturnValue = INTERNAL_ERROR; 
+		if (Exception != E_SUCCESSFULL && Exception != E_MEMORY_LIMIT && Exception != E_TIME_LIMIT && Exception != E_RUNTIME_ERROR) 
+			ReturnValue = INTERNAL_ERROR;
 		if (!CloseAllForJob(job, CurrentThreadIdx)) ReturnValue = INTERNAL_ERROR;
 		if (WaitForSingleObject(ProcessInf.hProcess, WAIT_INTERVAL) == WAIT_TIMEOUT) { 
 			LogMsg << "Process " << ExePath << " is not finished in time" << endl;
@@ -250,7 +256,7 @@ int DoProgram(int problem_id, int CurrentThreadIdx, LONGLONG &ProcessTime, SIZE_
 		if (job != NULL) CloseHandle(job);
 		if (completion_port != NULL) CloseHandle(completion_port);
 		if (ProcessInf.hThread != NULL) CloseHandle(ProcessInf.hThread);
-		if (ProcessInf.hProcess != NULL) CloseHandle(ProcessInf.hProcess);
+		if (ProcessInf.hProcess != NULL) CloseHandle(ProcessInf.hProcess);		
 		if (strcmp(Messages[Exception - 1].Msg, "") != 0)
 			LogMsg << Messages[Exception - 1].Msg << ": " << GetLastError() << endl;
 		Threads[CurrentThreadIdx].LogMsg += LogMsg.str();
@@ -269,7 +275,7 @@ string GetFileToStr(string FileName) {
 	ifstream fin;
 	fin.open (FileName, ios::binary );
 	fin.seekg (0, ios::end);
-	len = fin.tellg();
+	len = (unsigned)fin.tellg();
 	fin.seekg (0, ios::beg);
 	buffer = new char [len + 1];
 	fin.read (buffer,len);
