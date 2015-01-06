@@ -183,6 +183,8 @@ int DoProgram(int problem_id, int CurrentThreadIdx, LONGLONG &ProcessTime, SIZE_
 	HANDLE job = NULL, completion_port = NULL;
 	int ReturnValue = RUNTIME_ERROR; 
 
+	PROCESS_MEMORY_COUNTERS memCounter;
+	
 	sprintf_s(InterceptionLibName, sizeof(InterceptionLibName), "%s\\APIInterception.dll", CurDir);
 	QueryPerformanceFrequency(&freq);
 	try {	
@@ -207,7 +209,9 @@ int DoProgram(int problem_id, int CurrentThreadIdx, LONGLONG &ProcessTime, SIZE_
 			//if (!SetAPIInterception(ProcessInf.hProcess, InterceptionLibName)) throw E_INTERSEPT_API;
 			if (!AssignProcessToJobObject(job, ProcessInf.hProcess)) throw E_ASSIGN_PROCESS_TO_JOB;		
 			// Проверяем память инициализированного процесса до запуска
+			//GetProcessMemoryInfo(ProcessInf.hProcess, &memCounter, sizeof(memCounter));
 			ProcessMemory = (SIZE_T)GetProcessMemory(ProcessInf.hProcess) / KB;
+			//ProcessMemory = memCounter.PeakWorkingSetSize / KB;
 			if (ProcessMemory * KB > (SIZE_T)Problems[problem_id].MaxMem) {				 
 				ReturnValue = MEMORY_LIMIT; 
 				throw E_MEMORY_LIMIT; 
@@ -230,6 +234,10 @@ int DoProgram(int problem_id, int CurrentThreadIdx, LONGLONG &ProcessTime, SIZE_
 			QueryPerformanceCounter(&end);
 			// Вычисляем память и время работы процесса
 			ProcessMemory += GetJobMemoryInformation(CurrentThreadIdx, job);
+			if (ProcessMemory * KB > (SIZE_T)Problems[problem_id].MaxMem) {
+				ReturnValue = MEMORY_LIMIT;
+				throw E_MEMORY_LIMIT;
+			}
 			ProcessTime = ((end.QuadPart - start.QuadPart) * 1000) / freq.QuadPart;	
 			// Преобразуем сообщение порта завершения в вердикт проверки
 			ReturnValue = SwitchRunResult(RunResult, job, CurrentThreadIdx);

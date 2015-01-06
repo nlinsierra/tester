@@ -13,7 +13,7 @@ bool SetBaseLimits(HANDLE job, int MaxTime, int MaxMem, int CurrentThreadIdx) {
 		                JOB_OBJECT_LIMIT_PROCESS_MEMORY | 
 						JOB_OBJECT_LIMIT_DIE_ON_UNHANDLED_EXCEPTION | 
 						JOB_OBJECT_LIMIT_ACTIVE_PROCESS |
-						JOB_OBJECT_LIMIT_JOB_MEMORY |
+						//JOB_OBJECT_LIMIT_JOB_MEMORY |
 						JOB_OBJECT_LIMIT_JOB_TIME |
 						JOB_OBJECT_LIMIT_PRIORITY_CLASS;
 	JobInf.PerProcessUserTimeLimit.QuadPart = MaxTime * NANOSECS;	
@@ -22,8 +22,8 @@ bool SetBaseLimits(HANDLE job, int MaxTime, int MaxMem, int CurrentThreadIdx) {
 	JobInf.PerJobUserTimeLimit.QuadPart = MaxTime * NANOSECS;
 
 	ExJobInf.BasicLimitInformation = JobInf;
-	ExJobInf.ProcessMemoryLimit = MaxMem;
-	ExJobInf.JobMemoryLimit = MaxMem;
+	//ExJobInf.ProcessMemoryLimit = MaxMem*10;
+	//ExJobInf.JobMemoryLimit = MaxMem*10;
 	try {
 		if (!SetInformationJobObject(job, JobObjectExtendedLimitInformation, &ExJobInf, sizeof(ExJobInf))) throw E_SET_JOB_LIMITS;
 		return true;
